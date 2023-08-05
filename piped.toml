@@ -1,0 +1,14 @@
+default_sessions = [
+    "reformat",
+    "verify-markup",
+    "spell-check",
+]
+top_level_targets = ["./noxfile.py"]
+
+[github_actions.freeze_for_pr]
+[github_actions.pr_docs]
+[github_actions.reformat]
+[github_actions.resync_piped]
+[github_actions.update_licence]
+[github_actions.upgrade_locks]
+[github_actions.verify_locks]
