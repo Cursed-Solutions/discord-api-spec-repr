@@ -1,5 +1,6 @@
 # mkdocs.yml
 site_name: "Discord API's structures"
+repo_url: https://github.com/FasterSpeeding/discord-api-spec-repr
 theme:
   name: material
   icon:
