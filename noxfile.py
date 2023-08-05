@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # BSD 3-Clause License
 #
-# Copyright (c) 2020-2023, Faster Speeding
+# Copyright (c) 2023, Faster Speeding
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -32,6 +32,6 @@
 import pathlib
 import sys
 
-sys.path.insert(0, str(pathlib.Path(__file__).parent / "python"))
+sys.path.insert(0, str(pathlib.Path(__file__).parent / "piped" / "python"))
 
 from noxfile import *
