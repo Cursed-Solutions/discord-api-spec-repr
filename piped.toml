@@ -1,7 +1,7 @@
 default_sessions = [
     "reformat",
     "verify-markup",
-    "spell-check", 
+    "spell-check",
 ]
 top_level_targets = []
 
@@ -15,4 +15,3 @@ BRANCH_PUSHES = ["master"]
 [github_actions.update_licence]
 [github_actions.upgrade_locks]
 [github_actions.verify_locks]
-
