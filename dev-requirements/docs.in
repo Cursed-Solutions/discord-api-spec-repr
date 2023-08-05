@@ -1,0 +1,2 @@
+-r ../piped/python/base-requirements/docs.in
+mkdocs-swagger-ui-tag>=0.6.3, <1
