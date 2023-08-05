@@ -3,7 +3,7 @@ default_sessions = [
     "verify-markup",
     "spell-check",
 ]
-top_level_targets = ["./noxfile.py"]
+top_level_targets = []
 
 [github_actions.freeze_for_pr]
 [github_actions.pr_docs]

@@ -1,4 +1,7 @@
-name: Resync piped
+# This is run to avoid an edge case where the latest version of a (probably sub)
+# dependency being yanked leads to pip failing to backtrack the dep.
+# This happened with `cachecontrol==0.12.12 ; python_version >= "3.7" and python_version < "4.0"`.
+name: Verify dependency locks
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -8,10 +11,10 @@ on:
   pull_request:
     branches:
       - master
-    paths: ["piped", "piped.toml", "pyproject.toml"]
+    paths: ["dev-requirements/*.txt"]
 
 jobs:
-  resync-piped:
+  verify-pr-dep-changes:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,13 +32,5 @@ jobs:
           python -m pip install --upgrade pip wheel
           python -m pip install -r ./piped/python/base-requirements/nox.txt
 
-      - name: Resync Piped
-        run: python -m nox -s copy-piped bot-package-diff
-
-      - uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce
-        with:
-          name: gogo.patch
-          path: gogo.patch
-
-      - name: Check diff file
-        run: python -m nox -s is-diff-file-empty
+      - name: Verify dependency locks
+        run: python -m nox -s verify-deps
