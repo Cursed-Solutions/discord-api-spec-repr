@@ -115,9 +115,9 @@ csscompressor==0.9.5 ; python_version >= "3.9" and python_version < "3.12" \
 ghp-import==2.1.0 ; python_version >= "3.9" and python_version < "3.12" \
     --hash=sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619 \
     --hash=sha256:9c535c4c61193c2df8871222567d7fd7e5014d835f97dc7b7439069e2413d343
-griffe==0.42.0 ; python_version >= "3.9" and python_version < "3.12" \
-    --hash=sha256:384df6b802a60f70e65fdb7e83f5b27e2da869a12eac85b25b55250012dbc263 \
-    --hash=sha256:fb83ee602701ffdf99c9a6bf5f0a5a3bd877364b3bffb2c451dc8fbd9645b0cf
+griffe==0.42.1 ; python_version >= "3.9" and python_version < "3.12" \
+    --hash=sha256:57046131384043ed078692b85d86b76568a686266cc036b9b56b704466f803ce \
+    --hash=sha256:7e805e35617601355edcac0d3511cedc1ed0cb1f7645e2d336ae4b05bbae7b3b
 htmlmin2==0.1.13 ; python_version >= "3.9" and python_version < "3.12" \
     --hash=sha256:75609f2a42e64f7ce57dbff28a39890363bde9e7e5885db633317efbdf8c79a2
 idna==3.6 ; python_version >= "3.9" and python_version < "3.12" \
