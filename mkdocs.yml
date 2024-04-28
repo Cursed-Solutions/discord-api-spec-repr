@@ -3,6 +3,10 @@ site_name: "Discord API's structures"
 repo_url: https://github.com/FasterSpeeding/discord-api-spec-repr
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
   icon:
     admonition:
       note: octicons/tag-16
