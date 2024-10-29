@@ -232,9 +232,9 @@ mkdocs-material==9.5.42 ; python_version >= "3.9" and python_version < "3.12" \
 mkdocs-minify-plugin==0.8.0 ; python_version >= "3.9" and python_version < "3.12" \
     --hash=sha256:5fba1a3f7bd9a2142c9954a6559a57e946587b21f133165ece30ea145c66aee6 \
     --hash=sha256:bc11b78b8120d79e817308e2b11539d790d21445eb63df831e393f76e52e753d
-mkdocs-swagger-ui-tag==0.6.10 ; python_version >= "3.9" and python_version < "3.12" \
-    --hash=sha256:811d55e0905bfecc5f2e743b5b1e4d03b663707d5472984cc7b21f45117dcb29 \
-    --hash=sha256:839373498a42202b3824068064919ad6ddf2e98d5a8deed7d4132719221c0528
+mkdocs-swagger-ui-tag==0.6.11 ; python_version >= "3.9" and python_version < "3.12" \
+    --hash=sha256:31681821d7f56a38379eb793abb3e035595df2043732a7db28e357dca2a0d566 \
+    --hash=sha256:eb7e0d6e14c793ec3430a6916dff6d8d1a0b3fd88ac6e909fa493f218685d12f
 mkdocs==1.6.1 ; python_version >= "3.9" and python_version < "3.12" \
     --hash=sha256:7b432f01d928c084353ab39c57282f29f92136665bdd6abf7c1ec8d822ef86f2 \
     --hash=sha256:db91759624d1647f3f34aa0c3f327dd2601beae39a366d6e064c03468d35c20e
