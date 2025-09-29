@@ -12,20 +12,3 @@ docs = [
     "mkdocs-minify-plugin>=0.6.4",
     "mkdocs-swagger-ui-tag>=0.6.3, <1",
 ]
-freeze-locks = ["uv"]
-reformat = [
-    "black>=22.10.0",
-    "isort>=5.11.3",
-    "pre-commit-hooks>=4.4",
-    "pycln>=2.1.2",
-    "sort-all>=1.2",
-]
-templating = ["Jinja2>=3.1.2"]
-
-[tool.piped]
-default_sessions = [
-    "reformat",
-    "verify-markup",
-    "spell-check",
-]
-top_level_targets = []
