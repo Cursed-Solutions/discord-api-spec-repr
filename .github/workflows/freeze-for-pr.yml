@@ -13,5 +13,5 @@ on:
 jobs:
   freeze-pr-dep-changes:
     if: contains(github.event.pull_request.labels.*.name, 'dependencies')
-    uses: FasterSpeeding/Piped/.github/workflows/freeze-for-pr.yml@de31b828376371558283a3c60ace58dd09f46b46
+    uses: FasterSpeeding/Piped/.github/workflows/freeze-for-pr.yml@83cef8d36a5b59839a19d61f34bd3dda30c8b7c9
     secrets: inherit
