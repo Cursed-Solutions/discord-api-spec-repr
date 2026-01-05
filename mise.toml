@@ -8,7 +8,7 @@ python = "3"
 "pipx:pre-commit-hooks" = "6.0.0"
 "npm:renovate" = "42.66.8"
 uv = "0.9.18"
-just = "1.45.0"
+just = "1.46.0"
 
 [settings]
 activate_aggressive = true
